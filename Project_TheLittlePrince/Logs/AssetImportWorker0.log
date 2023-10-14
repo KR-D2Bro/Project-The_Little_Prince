@@ -15,7 +15,7 @@ C:/Users/32204045/git/gitHub Projects/Project-The_Little_Prince/Project_TheLittl
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55826
+53478
 Successfully changed project path to: C:/Users/32204045/git/gitHub Projects/Project-The_Little_Prince/Project_TheLittlePrince
 C:/Users/32204045/git/gitHub Projects/Project-The_Little_Prince/Project_TheLittlePrince
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/32204045/git/gitHub Projects/Project-The_Little_Prince/Project_TheLittl
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23312] Host "[IP] 192.168.45.129 [Port] 0 [Flags] 2 [Guid] 1883333926 [EditorId] 1883333926 [Version] 1048832 [Id] WindowsEditor(7,정동재) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13408] Host "[IP] 192.168.45.129 [Port] 0 [Flags] 2 [Guid] 2516038042 [EditorId] 2516038042 [Version] 1048832 [Id] WindowsEditor(7,정동재) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23312] Host "[IP] 192.168.45.129 [Port] 0 [Flags] 2 [Guid] 1883333926 [EditorId] 1883333926 [Version] 1048832 [Id] WindowsEditor(7,정동재) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13408] Host "[IP] 192.168.45.129 [Port] 0 [Flags] 2 [Guid] 2516038042 [EditorId] 2516038042 [Version] 1048832 [Id] WindowsEditor(7,정동재) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 6.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007292 seconds.
-- Loaded All Assemblies, in  0.226 seconds
+Registered in 0.005898 seconds.
+- Loaded All Assemblies, in  0.223 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.154 seconds
-Domain Reload Profiling: 378ms
+- Finished resetting the current domain, in  0.161 seconds
+Domain Reload Profiling: 383ms
 	BeginReloadAssembly (71ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (20ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (87ms)
-		LoadAssemblies (69ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (88ms)
+		LoadAssemblies (70ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (85ms)
-			TypeCache.Refresh (84ms)
-				TypeCache.ScanAssembly (76ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (78ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (154ms)
+	FinalizeReload (161ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (118ms)
+		SetupLoadedEditorAssemblies (124ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (77ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 378ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.397 seconds
-Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.401 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,86 +126,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.355 seconds
-Domain Reload Profiling: 750ms
-	BeginReloadAssembly (93ms)
+- Finished resetting the current domain, in  0.339 seconds
+Domain Reload Profiling: 737ms
+	BeginReloadAssembly (96ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (250ms)
-		LoadAssemblies (200ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (197ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (103ms)
-			TypeCache.Refresh (90ms)
-				TypeCache.ScanAssembly (81ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (82ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (356ms)
+	FinalizeReload (339ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (263ms)
+		SetupLoadedEditorAssemblies (245ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (196ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.9 KB). Loaded Objects now: 3533.
 Memory consumption went from 187.8 MB to 187.7 MB.
-Total: 2.038600 ms (FindLiveObjects: 0.134200 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.788300 ms  DeleteObjects: 0.077000 ms)
+Total: 2.065500 ms (FindLiveObjects: 0.130200 ms CreateObjectMapping: 0.048300 ms MarkObjects: 1.817000 ms  DeleteObjects: 0.069100 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 44493.243933 seconds.
-  path: Assets/Characters/TLP_baked/Skin.mat
-  artifactKey: Guid(17eab7d966876f84fb00f12417945874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/TLP_baked/Skin.mat using Guid(17eab7d966876f84fb00f12417945874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1dfd6ecac905188fe5df293e699697') in 0.083927 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 65.350626 seconds.
-  path: Assets/Characters/TLP ver4.fbx
-  artifactKey: Guid(4c0b852bd1822c74f9536a3ab8eb0eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/TLP ver4.fbx using Guid(4c0b852bd1822c74f9536a3ab8eb0eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd08a49def9f1f3815f9673fccc6d3a9') in 0.324958 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 104
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3579.
-Memory consumption went from 145.7 MB to 145.7 MB.
-Total: 2.168900 ms (FindLiveObjects: 0.169900 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.940600 ms  DeleteObjects: 0.013400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -222,102 +184,377 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.184530 seconds.
-  path: Assets/Characters/TLP ver2.1.fbx
-  artifactKey: Guid(1fc703f0d64bce9418a09589fbd4ed34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/TLP ver2.1.fbx using Guid(1fc703f0d64bce9418a09589fbd4ed34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a2fa9bc9033f31cc5068d271446d7d') in 0.286154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 108
-========================================================================
-Received Import Request.
-  Time since last request: 13.532847 seconds.
-  path: Assets/Characters/textures
-  artifactKey: Guid(56936030b8ca1bc4398a7311c994b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/textures using Guid(56936030b8ca1bc4398a7311c994b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fa6740dcd7254c8bdc3fbb6bce84e5') in 0.000669 seconds
+  Time since last request: 29544.287293 seconds.
+  path: Assets/Characters/Planets
+  artifactKey: Guid(29076cd2e1b232e4f9297e14d64c89f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Planets using Guid(29076cd2e1b232e4f9297e14d64c89f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4ff6b511206c4ecc62a042a4cae638') in 0.002175 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 15.326092 seconds.
-  path: Assets/Characters/textures/backFack.jpg
-  artifactKey: Guid(0a0dc52209f92ba49b734e2492858bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/textures/backFack.jpg using Guid(0a0dc52209f92ba49b734e2492858bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7632928da39c7eb61d5555da13e790b1') in 0.021560 seconds
+  Time since last request: 12.820690 seconds.
+  path: Assets/Characters/Planets/TLP_Planet
+  artifactKey: Guid(85bed8b31e1be5a4085731467242fcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Planets/TLP_Planet using Guid(85bed8b31e1be5a4085731467242fcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158c0cb774a6a046da2b403c74d65bb8') in 0.000388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.778025 seconds.
+  path: Assets/Characters/Planets/planet textures
+  artifactKey: Guid(74294d78e93b75942b5cc684796ccb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Planets/planet textures using Guid(74294d78e93b75942b5cc684796ccb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832df1194464ea68b8f5480463fd9020') in 0.000468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.089973 seconds.
+  path: Assets/Characters/Planets/TLP_Planet/Planet_First.fbx
+  artifactKey: Guid(1aefc2110911f3f43b50ae471317d927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Planets/TLP_Planet/Planet_First.fbx using Guid(1aefc2110911f3f43b50ae471317d927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f940ad9392eef21fd579801a8742bd8') in 0.187391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 16.968822 seconds.
+  path: Assets/Characters/Planets/planet textures/bake main planet.png
+  artifactKey: Guid(18b5b67cf6cc7b946b1aed76b364d5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Planets/planet textures/bake main planet.png using Guid(18b5b67cf6cc7b946b1aed76b364d5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c414133f4ebb7ee6a118f2e2964641c7') in 0.034482 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005441 seconds.
-  path: Assets/Characters/textures/bake Nose.png
-  artifactKey: Guid(78ddc6f36a2e04347a133d9ab5d69acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/textures/bake Nose.png using Guid(78ddc6f36a2e04347a133d9ab5d69acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fcfb913200f37e9fb239abb774be930') in 0.018535 seconds
+  Time since last request: 22.869010 seconds.
+  path: Assets/Characters/Planets/TLP_Planet/Planet_First.fbx
+  artifactKey: Guid(1aefc2110911f3f43b50ae471317d927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Planets/TLP_Planet/Planet_First.fbx using Guid(1aefc2110911f3f43b50ae471317d927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf3dca014f1088300a091d8d2b4e31e') in 0.027769 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 88.624856 seconds.
+  path: Assets/Characters/Planets/TLP_Planet/Planet_First.fbx
+  artifactKey: Guid(1aefc2110911f3f43b50ae471317d927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Planets/TLP_Planet/Planet_First.fbx using Guid(1aefc2110911f3f43b50ae471317d927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270b05bf34f54228cba1e5cd1c09e6ff') in 0.059481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/Characters/textures/bake shoes.png
-  artifactKey: Guid(21cf9eae7e4e7e34fa3a55ce561ac40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/textures/bake shoes.png using Guid(21cf9eae7e4e7e34fa3a55ce561ac40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286a377f81cfc74e209cc36bcff90c69') in 0.024146 seconds
+  path: Assets/Characters/Planets/TLP_Planet/test.002.mat
+  artifactKey: Guid(9ac4badf0b3293a4dbd2527e0023efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Planets/TLP_Planet/test.002.mat using Guid(9ac4badf0b3293a4dbd2527e0023efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54484f9b89befa96f506bbafaaf64771') in 0.011699 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Characters/textures/Face1.jpg
-  artifactKey: Guid(815914df236dff14d86c8477b8e14f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/textures/Face1.jpg using Guid(815914df236dff14d86c8477b8e14f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f4d4bb7e2b850d0aa3be1b1de842f1') in 0.021843 seconds
+  Time since last request: 1329.476384 seconds.
+  path: Assets/Characters/Shader
+  artifactKey: Guid(db992aabeb6da674d9933674ab3f6c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Shader using Guid(db992aabeb6da674d9933674ab3f6c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15274386bc6f893a8a0430dfd2995189') in 0.000666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 161.872345 seconds.
+  path: Assets/Characters/Shader/NewShaderVariants.shadervariants
+  artifactKey: Guid(5d3adf0b53a48f747b270caccd7397cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Shader/NewShaderVariants.shadervariants using Guid(5d3adf0b53a48f747b270caccd7397cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3094053375a4e39c78aa92388b43d80') in 0.001369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.796614 seconds.
+  path: Assets/Characters/Shader/NewSurfaceShader.shader
+  artifactKey: Guid(b617b00fd4bd8674690f1d4ca62ceb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Shader/NewSurfaceShader.shader using Guid(b617b00fd4bd8674690f1d4ca62ceb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28cac4e875be39d763d3d47d57b3c37') in 0.003207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 38.832511 seconds.
+  path: Assets/Characters/Shader/NewSurfaceShader.shader
+  artifactKey: Guid(b617b00fd4bd8674690f1d4ca62ceb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Shader/NewSurfaceShader.shader using Guid(b617b00fd4bd8674690f1d4ca62ceb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d75b044c9477830aba75a28f81c5a3') in 0.000994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 159.612554 seconds.
+  path: Assets/Characters/Shader/New Material.mat
+  artifactKey: Guid(e312a2483afc24b4887930067563bfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Shader/New Material.mat using Guid(e312a2483afc24b4887930067563bfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44625682da7b867390d0c0b58ef3a9f') in 0.041438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1527.793607 seconds.
+  path: Assets/TextureHaven/rock_4k
+  artifactKey: Guid(9b2c190b3c1a5cf4fbe111df471a5425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k using Guid(9b2c190b3c1a5cf4fbe111df471a5425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f2b480ebefc015d80fc826973817fc') in 0.000851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.459970 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures
+  artifactKey: Guid(152ec1d60c6e63445bd2740e899288db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures using Guid(152ec1d60c6e63445bd2740e899288db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc024c10f69ba9146191623406d2d2ff') in 0.000378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.530261 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_materials
+  artifactKey: Guid(0135c2bc9369c044abc8da6060f13b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_materials using Guid(0135c2bc9369c044abc8da6060f13b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0439eff30aa952630d92132516cc9f7d') in 0.000421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.746177 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_slates
+  artifactKey: Guid(6ceb57261f94e4346afa681c644b0a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_slates using Guid(6ceb57261f94e4346afa681c644b0a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bfce44db888e14e4ec31d2493cbd21') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.607385 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_varriation
+  artifactKey: Guid(03768510c480a4b41b0cf853062ecd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_varriation using Guid(03768510c480a4b41b0cf853062ecd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b609467f8394455cce3269f422737c5') in 0.000508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.550054 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2
+  artifactKey: Guid(eddb51bca39f9ba43afbe0802e81f223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2 using Guid(eddb51bca39f9ba43afbe0802e81f223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506eebed45b3e59afcfd4d0046979758') in 0.000443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.086390 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3
+  artifactKey: Guid(d7d0f37753579a144b8a9fb6cb738edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3 using Guid(d7d0f37753579a144b8a9fb6cb738edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31a2b8ea3cc3379edc15687f5bff36b') in 0.000528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048865 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_AO_4k.png
+  artifactKey: Guid(aa1f122e293e61f43a54014560dd9f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_AO_4k.png using Guid(aa1f122e293e61f43a54014560dd9f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67194d191500ef972c5b9632bcabe801') in 0.083447 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Characters/textures/bake Hair.png
-  artifactKey: Guid(b1870e0b706e5f14e80d86451af75efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/textures/bake Hair.png using Guid(b1870e0b706e5f14e80d86451af75efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710d6291a13e08b4078f7d4b62b1d733') in 0.096953 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_rough_4k.png
+  artifactKey: Guid(52bcc58852b33d9429280d9ab1ff633d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_rough_4k.png using Guid(52bcc58852b33d9429280d9ab1ff633d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485cdce125c95c654ccd1ad33341f3a7') in 0.023114 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Characters/textures/bake Scarf.png
-  artifactKey: Guid(606000bb71355fd43bb71259fc4cb635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/textures/bake Scarf.png using Guid(606000bb71355fd43bb71259fc4cb635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2ee3ba451ce5068c995eb3d25092d8') in 0.067639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 42.189633 seconds.
-  path: Assets/Characters/textures/Face.mat
-  artifactKey: Guid(b98daa3848fd47a4684ad8be42728282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/textures/Face.mat using Guid(b98daa3848fd47a4684ad8be42728282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6770ab722996344efb177e5e810fa57') in 0.017773 seconds
+  Time since last request: 0.000065 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_SpecSmoothness.png
+  artifactKey: Guid(3202703eac08dae429e16cb01f21f683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_SpecSmoothness.png using Guid(3202703eac08dae429e16cb01f21f683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9910bd635fcdab3ccdcc1776caab47') in 0.061766 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Characters/textures/Skin.mat
-  artifactKey: Guid(5867f5daf1e7fab4fbc889aea6be9e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/textures/Skin.mat using Guid(5867f5daf1e7fab4fbc889aea6be9e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac720a6335cbf23b755205ee6e35983') in 0.014841 seconds
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_Disp_4k.png
+  artifactKey: Guid(067cb8a210c7f55478eef8176f3cb5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_Disp_4k.png using Guid(067cb8a210c7f55478eef8176f3cb5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba9799831ee0f8d5655e972878fc1b0') in 0.021627 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Characters/textures/Shirt.mat
-  artifactKey: Guid(000738a16aa04e14ca8c24b1ac971c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/textures/Shirt.mat using Guid(000738a16aa04e14ca8c24b1ac971c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4ba57982c347fbdcab5e88a02c1b42') in 0.011006 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_diff_4k.png
+  artifactKey: Guid(5ff880f773525724f828b80798767ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_diff_4k.png using Guid(5ff880f773525724f828b80798767ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9001af51465cf70b5ccf95654872199') in 0.031406 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Characters/textures/Material.001.mat
-  artifactKey: Guid(d151891b77171e9459b69d7e3333c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/textures/Material.001.mat using Guid(d151891b77171e9459b69d7e3333c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0657b0747805e794ace7fc6fbb9c3f') in 0.012109 seconds
+  Time since last request: 13.575288 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_slates/castle_wall_slates_ao_4k.png
+  artifactKey: Guid(4a8d1830a2ab6c34685bada17cdd7a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_slates/castle_wall_slates_ao_4k.png using Guid(4a8d1830a2ab6c34685bada17cdd7a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a2a0e050533f2e3c81923c119c851c') in 0.023330 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014477 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_slates/castle_wall_slates_diff_4k.png
+  artifactKey: Guid(ce2eeefbca069114ca4687dcc387a8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_slates/castle_wall_slates_diff_4k.png using Guid(ce2eeefbca069114ca4687dcc387a8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602c2307f35cd0c6d5e2e2dc577dd7ad') in 0.023539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.397306 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_slates/castle_wall_slates_rough_4k.png
+  artifactKey: Guid(717ac1e6cb050cb4bbe0ed891d5f3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_slates/castle_wall_slates_rough_4k.png using Guid(717ac1e6cb050cb4bbe0ed891d5f3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0686f5097ed625fbc9c919c460d80e') in 0.029464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024326 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_varriation/castle_wall_varriation_disp_4k.png
+  artifactKey: Guid(c421dfcbe9536244dae196657f3ad1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_varriation/castle_wall_varriation_disp_4k.png using Guid(c421dfcbe9536244dae196657f3ad1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb2eb50fd663b938b2e74cbb6803642') in 0.027313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.844627 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_01/rock_01_AO_4k.png
+  artifactKey: Guid(8b2e6e2d988b31d4d985779b70119183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_01/rock_01_AO_4k.png using Guid(8b2e6e2d988b31d4d985779b70119183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae17545bf90fa4a9f658ecc75633f9a') in 0.021496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.281582 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_01/rock_01_diff_4k.png
+  artifactKey: Guid(3660d293461689848a7ea2f79f4b4d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_01/rock_01_diff_4k.png using Guid(3660d293461689848a7ea2f79f4b4d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2884a4fa295ad2606307f3fe1bab9795') in 0.023174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.060791 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_01/rock_01_Nor_4k.png
+  artifactKey: Guid(f0da100902e6c9747b73182e42ea2fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_01/rock_01_Nor_4k.png using Guid(f0da100902e6c9747b73182e42ea2fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f46d64913dc877670970da11219c1d') in 0.038689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.452600 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_01/rock_01_spec_4k.png
+  artifactKey: Guid(2de434db6324b484589d18d81405837c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_01/rock_01_spec_4k.png using Guid(2de434db6324b484589d18d81405837c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721a38f31eae23ac250cf187920987d1') in 0.020075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.576238 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_ao_4k.png
+  artifactKey: Guid(da10b00124429d3478855f83b4935660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_ao_4k.png using Guid(da10b00124429d3478855f83b4935660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226ef8d694cb75c056f8bea69eab6304') in 0.029239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.201520 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_diff_4k.png
+  artifactKey: Guid(01d7f3cd269f7004d84daee22a55606b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_diff_4k.png using Guid(01d7f3cd269f7004d84daee22a55606b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d49a705ef02f603fcb288a98fbacf9') in 0.031904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.040413 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_nor_4k.png
+  artifactKey: Guid(5d1a7933c29f1a04489d4926c7c58291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_nor_4k.png using Guid(5d1a7933c29f1a04489d4926c7c58291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e06cd55aebbde4c32fbc31d4153f51') in 0.032529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.163364 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_spec_4k.png
+  artifactKey: Guid(08e0ea3ccffb245488abe7410d2e0ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_spec_4k.png using Guid(08e0ea3ccffb245488abe7410d2e0ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100a14de58ee8943baf3d7190584144a') in 0.026031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 28.586752 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_04/rock_04_diff_4k.png
+  artifactKey: Guid(1be66400bc66bfe4b80ac570d096dcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_04/rock_04_diff_4k.png using Guid(1be66400bc66bfe4b80ac570d096dcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba28258a205d59d140edd910d8f6c152') in 0.039688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.076523 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_04/rock_04_nor_4k.png
+  artifactKey: Guid(7ebeadb7e2c06864bb0dd375daefc752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_04/rock_04_nor_4k.png using Guid(7ebeadb7e2c06864bb0dd375daefc752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c502b7586c7dee02261c06acea2c1d8') in 0.044877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.065838 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_04/rock_04_spec_4k.png
+  artifactKey: Guid(00a38551d161e7643be8f3497f451568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_04/rock_04_spec_4k.png using Guid(00a38551d161e7643be8f3497f451568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32704074c6c3abeb40bc736df88fbf0e') in 0.033127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.707243 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_05/rock_05_ao_4k.png
+  artifactKey: Guid(a455541930e79e748b96a9e33311afb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_05/rock_05_ao_4k.png using Guid(a455541930e79e748b96a9e33311afb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f70c29817037e597992bcebe1e6bf4') in 0.033850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.774494 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_05/rock_05_diff_4k.png
+  artifactKey: Guid(28b7c0132caa1bc43bf582e29f31f3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_05/rock_05_diff_4k.png using Guid(28b7c0132caa1bc43bf582e29f31f3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ade31a07a386eca2ba3b6ce055c510') in 0.033260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.513625 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_05/rock_05_nor_4k.png
+  artifactKey: Guid(da3f39f5474701b448b4bc23153c4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_05/rock_05_nor_4k.png using Guid(da3f39f5474701b448b4bc23153c4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397905e2c7c32dab1a1ec37f151ae947') in 0.034842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.789623 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_05/rock_05_spec_4k.png
+  artifactKey: Guid(3f701f7b8fba9ce4ba799d4eb6420dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_05/rock_05_spec_4k.png using Guid(3f701f7b8fba9ce4ba799d4eb6420dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d4ac96e32944d875718e22f69b0f33') in 0.021509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.627695 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_06/rock_06_AO_4k.png
+  artifactKey: Guid(d48921da29fcd5d43baef7d1ec5b8734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_06/rock_06_AO_4k.png using Guid(d48921da29fcd5d43baef7d1ec5b8734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d8a684018e5ef0917c2ffc74e5b697') in 0.022035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.140201 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_06/rock_06_diff_4k.png
+  artifactKey: Guid(fc7d88338cc3e6f48b256fdd1502b804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_06/rock_06_diff_4k.png using Guid(fc7d88338cc3e6f48b256fdd1502b804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dffcc0f81d00478109e1ffa076b21a') in 0.022784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 147.020715 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_06/rock_06_nor_4k.png
+  artifactKey: Guid(891cf21a53b017c4aa31a18224ca1850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_06/rock_06_nor_4k.png using Guid(891cf21a53b017c4aa31a18224ca1850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72b6744df188ac3f08619d31d79cd41') in 0.034779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
