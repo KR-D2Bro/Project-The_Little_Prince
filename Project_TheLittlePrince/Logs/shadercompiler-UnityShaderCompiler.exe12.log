@@ -1,0 +1,15 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: disassembleShader
+ name=Standard platform=d3d11 type=15 mask=6 insize=1950 outsize=3410 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=d3d11 type=17 mask=6 insize=3410 outsize=4984 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=d3d11 type=15 mask=6 insize=2086 outsize=3594 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=d3d11 type=17 mask=6 insize=2366 outsize=4097 ok=1
+
