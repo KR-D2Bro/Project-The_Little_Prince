@@ -27,6 +27,9 @@ public class PlanetaryWalkerController : MonoBehaviour
 
     bool grounded = false;
 
+    //애니메이터
+    Animator anim;
+
     Rigidbody Player;
 
     Vector2 rotation = Vector2.zero;
@@ -35,6 +38,9 @@ public class PlanetaryWalkerController : MonoBehaviour
 
     void Awake()
     {
+        // Animator 컴포넌트 가져오기
+        anim=GetComponent<Animator>();
+
         // Rigidbody 컴포넌트 가져오기
         Player = GetComponent<Rigidbody>();
 
@@ -72,6 +78,13 @@ public class PlanetaryWalkerController : MonoBehaviour
             velocityChange.y = 0;
             velocityChange = transform.TransformDirection(velocityChange);
 
+
+            if(velocityChange.magnitude>0.1f)
+            {
+                anim.SetBool("IsWalk",true);
+            }
+            else
+                anim.SetBool("IsWalk",false);
             // 속도 변경 적용
             Player.AddForce(velocityChange, ForceMode.VelocityChange);
 
