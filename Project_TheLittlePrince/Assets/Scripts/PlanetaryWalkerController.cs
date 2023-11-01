@@ -30,6 +30,9 @@ public class PlanetaryWalkerController : MonoBehaviour
     //애니메이터
     Animator anim;
 
+    //이동중인지 확인하는 불리안 변수
+    public bool IsWalking=false;
+
     Rigidbody Player;
 
     Vector2 rotation = Vector2.zero;
@@ -78,13 +81,17 @@ public class PlanetaryWalkerController : MonoBehaviour
             velocityChange.y = 0;
             velocityChange = transform.TransformDirection(velocityChange);
 
-
+            //애니메이션
             if(velocityChange.magnitude>0.1f)
             {
+                IsWalking=true;
                 anim.SetBool("IsWalk",true);
             }
-            else
+            else{
+                IsWalking=false;
                 anim.SetBool("IsWalk",false);
+            }
+
             // 속도 변경 적용
             Player.AddForce(velocityChange, ForceMode.VelocityChange);
 
@@ -99,7 +106,7 @@ public class PlanetaryWalkerController : MonoBehaviour
 
         // 카메라 및 플레이어 회전 입력 처리
         rotation.x += -Input.GetAxis("Mouse Y") * CameraSpeed;
-        rotation.x = Mathf.Clamp(rotation.x, -CameraXLimit, CameraXLimit);
+        rotation.x = Mathf.Clamp(rotation.x, -CameraXLimit+20, CameraXLimit+20);
         playerCamera.transform.localRotation = Quaternion.Euler(rotation.x, 0, 0);
         Quaternion localRotation = Quaternion.Euler(0f, Input.GetAxis("Mouse X") * CameraSpeed, 0f);
         transform.rotation = transform.rotation * localRotation;
