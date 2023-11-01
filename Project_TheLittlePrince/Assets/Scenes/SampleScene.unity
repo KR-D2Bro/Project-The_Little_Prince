@@ -208,13 +208,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6821460}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3858152, y: -0, z: -0, w: 0.92257607}
-  m_LocalPosition: {x: 0, y: 3.59, z: -2.87}
+  m_LocalRotation: {x: 0.29063123, y: -0, z: -0, w: 0.95683515}
+  m_LocalPosition: {x: 0, y: 2.34, z: -4.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 795389354}
-  m_LocalEulerAnglesHint: {x: 45.389, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 33.792, y: 0, z: 0}
 --- !u!1 &144003976 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8513859187771203891, guid: 35a1b58292f878048b0b6045b2574d21, type: 3}
@@ -252,15 +252,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4572df7ed25e1264ab4807dfd93fdc87, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.6
+      value: 1.13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4572df7ed25e1264ab4807dfd93fdc87, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.6
+      value: 1.13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4572df7ed25e1264ab4807dfd93fdc87, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.6
+      value: 1.13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4572df7ed25e1264ab4807dfd93fdc87, type: 3}
       propertyPath: m_LocalPosition.x
@@ -537,8 +537,8 @@ MonoBehaviour:
   canJump: 1
   jumpHeight: 1.1
   playerCamera: {fileID: 6821461}
-  CameraSpeed: 30
-  CameraXLimit: 50
+  CameraSpeed: 20
+  CameraXLimit: 20
 --- !u!54 &795389352
 Rigidbody:
   m_ObjectHideFlags: 0

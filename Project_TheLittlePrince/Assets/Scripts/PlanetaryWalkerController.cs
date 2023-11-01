@@ -99,7 +99,7 @@ public class PlanetaryWalkerController : MonoBehaviour
 
         // 카메라 및 플레이어 회전 입력 처리
         rotation.x += -Input.GetAxis("Mouse Y") * CameraSpeed;
-        rotation.x = Mathf.Clamp(rotation.x, -CameraXLimit, CameraXLimit);
+        rotation.x = Mathf.Clamp(rotation.x, -CameraXLimit+20, CameraXLimit+20);
         playerCamera.transform.localRotation = Quaternion.Euler(rotation.x, 0, 0);
         Quaternion localRotation = Quaternion.Euler(0f, Input.GetAxis("Mouse X") * CameraSpeed, 0f);
         transform.rotation = transform.rotation * localRotation;
