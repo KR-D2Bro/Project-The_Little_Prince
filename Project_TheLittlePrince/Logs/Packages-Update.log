@@ -68,3 +68,40 @@ Update Mode: updateDependencies
 The following packages were updated:
   com.unity.inputsystem from version 1.5.1 to 1.7.0
   com.unity.render-pipelines.universal from version 14.0.7 to 14.0.8
+
+=== Sat Nov 11 14:36:13 2023
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.2.16 to 2.0.7
+  com.unity.ide.rider from version 1.1.4 to 3.0.24
+  com.unity.ide.vscode from version 1.2.3 to 1.2.5
+  com.unity.test-framework from version 1.1.20 to 1.1.33
+  com.unity.textmeshpro from version 2.1.1 to 3.0.6
+  com.unity.timeline from version 1.2.17 to 1.7.5
+
+=== Sat Nov 11 14:36:13 2023
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.2d.sprite@1.0.0
+  com.unity.ide.rider@3.0.24
+  com.unity.ide.vscode@1.2.5
+  com.unity.test-framework@1.1.33
+
+=== Sat Nov 11 15:42:03 2023
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.2.16 to 2.0.7
+  com.unity.ide.rider from version 1.1.4 to 3.0.24
+  com.unity.ide.vscode from version 1.2.3 to 1.2.5
+  com.unity.test-framework from version 1.1.20 to 1.1.33
+  com.unity.textmeshpro from version 2.1.1 to 3.0.6
+  com.unity.timeline from version 1.2.17 to 1.7.5
