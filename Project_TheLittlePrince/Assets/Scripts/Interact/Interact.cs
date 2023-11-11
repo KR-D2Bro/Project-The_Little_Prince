@@ -23,7 +23,7 @@ public class Interact : MonoBehaviour
 
       // 시각적으로 레이를 표시 (레이가 충돌하지 않을 때 red)
       //Debug.DrawRay(rayStart, transform.forward * interactionDistance, Color.red, 2.0f);
-      
+
       if(Physics.Raycast(rayStart, this.transform.forward, out hitInfo, interactionDistance, layerMask))
       {
         int hitLayer = hitInfo.transform.gameObject.layer;
@@ -68,5 +68,4 @@ public class Interact : MonoBehaviour
         // Portal 레이어에 대한 처리 코드
         Debug.Log("Entering Portal: " + hitInfo.transform.name);
     }
-
 }
