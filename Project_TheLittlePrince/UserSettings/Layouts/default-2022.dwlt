@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 105
+  controlID: 104
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -461,7 +461,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Models/SkyBox/SkyBox Volume 2/DeepSpaceGreen
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -469,16 +469,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Models/SkyBox/SkyBox Volume 2/DeepSpaceGreen
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\32204045\git\gitHub Projects\Project-The_Little_Prince\Project_TheLittlePrince
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 19}
-    m_SelectedIDs: c4700000
-    m_LastClickedID: 28868
-    m_ExpandedIDs: 00000000e06e0000e26e0000be700000fc70000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 86720000
+    m_LastClickedID: 29318
+    m_ExpandedIDs: 00000000e06e0000e26e0000e46e0000e66e000004710000727200000a770000a47a0000b07a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,7 +506,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000de6e0000e06e0000e26e0000e46e0000e66e0000
+    m_ExpandedIDs: 00000000e06e0000e26e0000e46e0000e66e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -646,9 +646,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 50710000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 36aaffff68cbffff36d3ffff7cdbffff38ddffff6cdfffffeae0ffff44e1ffff76e2ffffd0e2ffff84e5ffff18e7ffff4ae8ffff9ce8ffff10fbffff6c740000
+      m_ExpandedIDs: 10fbffff506d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1028,9 +1028,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.420752, y: -13.445826, z: 4.1723404}
+    m_Target: {x: 55.508224, y: 3.9554176, z: 29.382986}
     speed: 2
-    m_Value: {x: -13.420752, y: -13.445826, z: 4.1723404}
+    m_Value: {x: 55.508224, y: 3.9554176, z: 29.382986}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1076,13 +1076,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.27154297, y: 0.48399073, z: -0.16131815, w: -0.81623805}
+    m_Target: {x: -0.020021718, y: 0.5211481, z: 0.012676005, w: 0.8533034}
     speed: 2
-    m_Value: {x: -0.27175054, y: 0.4827053, z: -0.16089049, w: -0.8168607}
+    m_Value: {x: -0.020018881, y: 0.52107424, z: 0.012674209, w: 0.85318244}
   m_Size:
-    m_Target: 16.755022
+    m_Target: 44.152676
     speed: 2
-    m_Value: 16.755022
+    m_Value: 44.152676
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1210,7 +1210,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
