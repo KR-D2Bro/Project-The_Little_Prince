@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.11079707, g: 0.09810347, b: 0.09345599, a: 1}
+  m_IndirectSpecularColor: {r: 0.114241056, g: 0.100504674, b: 0.095167674, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1255,7 +1255,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-<<<<<<< HEAD:Project_TheLittlePrince/Assets/Scenes/SampleScene.unity
 --- !u!114 &795389358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1271,7 +1270,7 @@ MonoBehaviour:
   interactionDistance: 2
   layerMask:
     serializedVersion: 2
-    m_Bits: 896
+    m_Bits: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,8 +1468,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 3.36, y: 1.55, z: -24.44}
-=======
->>>>>>> Design:Project_TheLittlePrince/Assets/Scenes/TLP Planet.unity
 --- !u!1001 &1211610943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1519,6 +1516,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 66.579
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 35a1b58292f878048b0b6045b2574d21, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 35a1b58292f878048b0b6045b2574d21, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 35a1b58292f878048b0b6045b2574d21, type: 3}
       propertyPath: m_Name
       value: PlanetTmp ver.2.1
@@ -1533,9 +1538,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35a1b58292f878048b0b6045b2574d21, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1933049493}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35a1b58292f878048b0b6045b2574d21, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1933049496}
     - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: 35a1b58292f878048b0b6045b2574d21, type: 3}
       insertIndex: -1
       addedObject: {fileID: 144003984}
@@ -1716,18 +1718,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-<<<<<<< HEAD:Project_TheLittlePrince/Assets/Scenes/SampleScene.unity
 --- !u!1 &1969217987
 GameObject:
-=======
---- !u!114 &1933049496
-MonoBehaviour:
->>>>>>> Design:Project_TheLittlePrince/Assets/Scenes/TLP Planet.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Project_TheLittlePrince/Assets/Scenes/SampleScene.unity
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1969217991}
@@ -1827,14 +1823,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -13.43, y: 0, z: 23.7}
-=======
-  m_GameObject: {fileID: 1933049486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 795d2b3e00d5abe4f88d01aac88f1cdb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
->>>>>>> Design:Project_TheLittlePrince/Assets/Scenes/TLP Planet.unity
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1845,3 +1833,7 @@ SceneRoots:
   - {fileID: 178244835}
   - {fileID: 1969217991}
   - {fileID: 691333722}
+  - {fileID: 120865415}
+  - {fileID: 424921179}
+  - {fileID: 963194228}
+  - {fileID: 963727475}
