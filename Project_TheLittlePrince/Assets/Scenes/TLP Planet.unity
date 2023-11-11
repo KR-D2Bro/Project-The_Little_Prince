@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 142536555e9261249ab0c82c324fb388, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.11079707, g: 0.09810347, b: 0.09345599, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -936,6 +936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -954,7 +955,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -1014,12 +1015,24 @@ Transform:
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: -0.85, y: 1.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &705507996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a70ac34a175044f99bb75ad0c66eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &795389349 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4572df7ed25e1264ab4807dfd93fdc87, type: 3}
@@ -1242,6 +1255,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< HEAD:Project_TheLittlePrince/Assets/Scenes/SampleScene.unity
 --- !u!114 &795389358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1455,6 +1469,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 3.36, y: 1.55, z: -24.44}
+=======
+>>>>>>> Design:Project_TheLittlePrince/Assets/Scenes/TLP Planet.unity
 --- !u!1001 &1211610943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1517,6 +1533,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35a1b58292f878048b0b6045b2574d21, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1933049493}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35a1b58292f878048b0b6045b2574d21, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1933049496}
     - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: 35a1b58292f878048b0b6045b2574d21, type: 3}
       insertIndex: -1
       addedObject: {fileID: 144003984}
@@ -1613,7 +1632,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0b4b297f9b281be41a5897f257eb881c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.484
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1697,12 +1716,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< HEAD:Project_TheLittlePrince/Assets/Scenes/SampleScene.unity
 --- !u!1 &1969217987
 GameObject:
+=======
+--- !u!114 &1933049496
+MonoBehaviour:
+>>>>>>> Design:Project_TheLittlePrince/Assets/Scenes/TLP Planet.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Project_TheLittlePrince/Assets/Scenes/SampleScene.unity
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1969217991}
@@ -1802,11 +1827,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -13.43, y: 0, z: 23.7}
+=======
+  m_GameObject: {fileID: 1933049486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 795d2b3e00d5abe4f88d01aac88f1cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Design:Project_TheLittlePrince/Assets/Scenes/TLP Planet.unity
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 963194228}
   - {fileID: 705507995}
   - {fileID: 1211610943}
   - {fileID: 515312272}
