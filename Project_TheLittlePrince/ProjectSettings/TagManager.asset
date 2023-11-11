@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Interaction
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -13,17 +12,10 @@ TagManager:
   - Water
   - UI
   - 
-<<<<<<< Updated upstream
-  - Object
-  - NPC
-  - Portal
   - 
-=======
-  - player
-  - Object
-  - Portal
-  - NPC
->>>>>>> Stashed changes
+  - 
+  - 
+  - 
   - 
   - 
   - 

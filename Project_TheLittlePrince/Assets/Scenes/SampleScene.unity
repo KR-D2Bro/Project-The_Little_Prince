@@ -746,7 +746,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8419723269783704788, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
       propertyPath: m_Layer
-<<<<<<< Updated upstream
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8271573745633237926, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
@@ -784,45 +783,6 @@ PrefabInstance:
     - target: {fileID: 844717530784392210, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
       propertyPath: m_Layer
       value: 8
-=======
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: -8271573745633237926, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: -7666713306865741197, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: -6243156110893753234, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: -5661485142682969913, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: -5396151276007002546, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: -613188099746022025, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: -322661208653145887, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 675801184710148688, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 844717530784392210, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
       propertyPath: m_Name
@@ -830,7 +790,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
       propertyPath: m_Layer
-<<<<<<< Updated upstream
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2264118248689916155, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
@@ -848,25 +807,6 @@ PrefabInstance:
     - target: {fileID: 4557196504365597171, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
       propertyPath: m_Layer
       value: 8
-=======
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2264118248689916155, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2501961987342580787, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382175743978603064, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4557196504365597171, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}
-      propertyPath: m_Layer
-      value: 10
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1317,11 +1257,7 @@ MonoBehaviour:
   interactionDistance: 2
   layerMask:
     serializedVersion: 2
-<<<<<<< Updated upstream
     m_Bits: 896
-=======
-    m_Bits: 1792
->>>>>>> Stashed changes
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1875,11 +1811,5 @@ SceneRoots:
   - {fileID: 1211610943}
   - {fileID: 515312272}
   - {fileID: 178244835}
-<<<<<<< Updated upstream
   - {fileID: 1969217991}
   - {fileID: 691333722}
-=======
-  - {fileID: 963727475}
-  - {fileID: 120865415}
-  - {fileID: 424921179}
->>>>>>> Stashed changes
