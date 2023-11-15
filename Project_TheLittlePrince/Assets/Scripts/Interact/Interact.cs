@@ -7,6 +7,18 @@ public class Interact : MonoBehaviour
 {
     public float interactionDistance = 2.0f;
     [SerializeField] private LayerMask layerMask;
+
+    private InteractWithObject interactWithObject;
+    private TalkToNPC talkToNPC;
+    private EnterPortal enterPortal;
+
+    private void Start()
+    {
+        // 해당 기능을 담당하는 클래스 인스턴스 생성
+        interactWithObject = new InteractWithObject();
+        talkToNPC = new TalkToNPC();
+        enterPortal = new EnterPortal();
+    }
  
     private void Update()
     {
@@ -35,13 +47,13 @@ public class Interact : MonoBehaviour
         switch (layerName)
         {
             case "Object":
-                InteractWithObject(hitInfo);
+                interactWithObject.Interact(hitInfo);
                 break;
             case "NPC":
-                InteractWithNPC(hitInfo);
+                talkToNPC.Interact(hitInfo);
                 break;
             case "Portal":
-                EnterPortal(hitInfo);
+                enterPortal.Interact(hitInfo);
                 break;
             default:
                 Debug.Log("Unhandled layer: " + layerName);
@@ -51,21 +63,4 @@ public class Interact : MonoBehaviour
 
     }
 
-    void InteractWithObject(RaycastHit hitInfo)
-    {
-        // Object 레이어에 대한 처리 코드
-        Debug.Log("Interacting with Object: " + hitInfo.transform.name);
-    }
-
-    void InteractWithNPC(RaycastHit hitInfo)
-    {
-        // NPC 레이어에 대한 처리 코드
-        Debug.Log("Interacting with NPC: " + hitInfo.transform.name);
-    }
-
-    void EnterPortal(RaycastHit hitInfo)
-    {
-        // Portal 레이어에 대한 처리 코드
-        Debug.Log("Entering Portal: " + hitInfo.transform.name);
-    }
 }
