@@ -19,13 +19,8 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-<<<<<<< HEAD
   m_Title: Console
   m_RootView: {fileID: 6}
-=======
-  m_Title: Game
-  m_RootView: {fileID: 2}
->>>>>>> d07206e95edfc7a975845d9f46ba2c627fa85cf8
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
@@ -38,7 +33,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -143,8 +137,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-=======
->>>>>>> d07206e95edfc7a975845d9f46ba2c627fa85cf8
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -398,7 +390,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -793,8 +784,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-=======
->>>>>>> d07206e95edfc7a975845d9f46ba2c627fa85cf8
   m_EditorHideFlags: 1
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -1193,19 +1182,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.08386233, y: 0.03407021, z: -0.0028684875, w: -0.995895}
     speed: 2
-<<<<<<< HEAD
     m_Value: {x: -0.018236252, y: 0.08896448, z: -0.0016285789, w: -0.9958693}
-=======
-    m_Value: {x: -0.083861955, y: 0.03407006, z: -0.002868475, w: -0.9958906}
->>>>>>> d07206e95edfc7a975845d9f46ba2c627fa85cf8
   m_Size:
     m_Target: 3.6203816
     speed: 2
-<<<<<<< HEAD
     m_Value: 5.0562186
-=======
-    m_Value: 3.6203816
->>>>>>> d07206e95edfc7a975845d9f46ba2c627fa85cf8
   m_Ortho:
     m_Target: 0
     speed: 2

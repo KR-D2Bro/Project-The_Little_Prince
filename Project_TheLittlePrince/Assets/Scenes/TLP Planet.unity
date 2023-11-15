@@ -1056,11 +1056,7 @@ MonoBehaviour:
   interactionDistance: 4
   layerMask:
     serializedVersion: 2
-<<<<<<< HEAD
     m_Bits: 4294967295
-=======
-    m_Bits: 896
->>>>>>> d07206e95edfc7a975845d9f46ba2c627fa85cf8
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
