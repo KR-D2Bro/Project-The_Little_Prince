@@ -3,7 +3,22 @@ guid: 83702d67eb6c2254f9a4f636cd3765a9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: petal_base
+    second: {fileID: 2100000, guid: 3998b38c0f795d04097c8332894c38c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stem_base
+    second: {fileID: 2100000, guid: d260b459dd3bfd6479525acb58ac794b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thom_base
+    second: {fileID: 2100000, guid: 63beb3c58220ca84b9db5336ef38d2f0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
