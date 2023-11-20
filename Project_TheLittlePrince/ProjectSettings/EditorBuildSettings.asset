@@ -4,6 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TLP Planet.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/King Planet.unity
+    guid: db7920b29a00e6840b0370db8b8912d3
+  - enabled: 1
+    path: Assets/Scenes/Drunk Planet.unity
+    guid: 6ec89675eda37f54581779c185a2ea5f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 15c7bf3cb5324f348a21cd6095a3b082, type: 2}
