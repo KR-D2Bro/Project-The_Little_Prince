@@ -12,4 +12,6 @@ public class QuestData
         questName = name;
         npcId = npc;
     }
+
+   
 }

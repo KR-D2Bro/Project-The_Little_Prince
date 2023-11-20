@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
         if (talkData == null) {
             isAction = false; //대화가 끝나면 액션을 비활성화 하고 대화 순서을 0로 만들어 오류가 안나게
             talkIndex = 0;
-            questManager.CheckQuest();
+            Debug.Log(questManager.CheckQuest(id));
             return;
         }
         if (isNpc)
