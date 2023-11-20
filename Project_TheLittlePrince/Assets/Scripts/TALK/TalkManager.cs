@@ -18,6 +18,8 @@ public class TalkManager : MonoBehaviour
         talkData.Add(1000, new string[] { "어린왕자야, 큰일났어","바오밥 나무가 자란다면 별에 구멍이 날꺼야" });
         talkData.Add(100, new string[] { "무언가 위험해보인다." });
 
+        //Quest
+        talkData.Add(10 + 1000, new string[] { "어서와" });
     }
     public string GetTalk(int id, int talkIndex)
     {
