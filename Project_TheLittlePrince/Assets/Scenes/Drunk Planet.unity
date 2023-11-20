@@ -530,6 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d630bafa90ebc04b8cbaaf02e9bea35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 0}
   interactionDistance: 4
   layerMask:
     serializedVersion: 2
