@@ -21,7 +21,7 @@ public class QuestManager : MonoBehaviour
         questList.Add(10, new QuestData("첫 대화"
             , new int[] { 1000, 2000 }));
         questList.Add(20, new QuestData("다른 행성으로 이동하기"
-            , new int[] { 2000, 3000 }));
+            , new int[] { 1000, 3000 }));
     }
 
     public int GetQuestTalkIndex(int id) //npc id
