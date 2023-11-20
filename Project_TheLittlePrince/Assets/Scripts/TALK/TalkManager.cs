@@ -24,6 +24,12 @@ public class TalkManager : MonoBehaviour
 
         talkData.Add(20 + 1000, new string[] { "rose:다행이야 이제 한동안 안전하겠어", "어린왕자: 장미야 난 다른 행성으로 모험을 떠나려 해" });
         talkData.Add(21 + 3000, new string[] { "다른 행성으로 이동한다"});
+
+        talkData.Add(30 + 4000, new string[] { "I am king", "무엄하다" });
+        talkData.Add(31 + 3000, new string[] { "다른 행성으로 이동한다" });
+
+        talkData.Add(40 + 4100, new string[] { "안녕하세요", "술가져와", "네?","술가져와","술을 가져다 주자" });
+        talkData.Add(41 + 4200, new string[] { "술병이다 가져다주자" ,"술병을 챙겼다."});
     }
     public string GetTalk(int id, int talkIndex)
     {
