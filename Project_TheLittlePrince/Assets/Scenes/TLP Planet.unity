@@ -38,11 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-<<<<<<< HEAD
-  m_IndirectSpecularColor: {r: 0.1305959, g: 0.109121315, b: 0.10468083, a: 1}
-=======
   m_IndirectSpecularColor: {r: 0.15306991, g: 0.13702413, b: 0.14141014, a: 1}
->>>>>>> 2e75f72 (Change Portal Object)
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1041,7 +1037,6 @@ CapsuleCollider:
   m_Height: 3.2782266
   m_Direction: 1
   m_Center: {x: -0.0000012810419, y: -0.25339654, z: -0.00000032280093}
-<<<<<<< HEAD
 --- !u!114 &602329043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1163,8 +1158,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> 2e75f72 (Change Portal Object)
 --- !u!1 &698271615 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 77031878ddad64449b35720de826d80b, type: 3}
