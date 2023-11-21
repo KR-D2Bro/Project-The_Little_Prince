@@ -18,8 +18,8 @@ public class QuestManager : MonoBehaviour
     // Update is called once per frame
     void GenerateData()
     {
-        questList.Add(10, new QuestData("첫 대화"
-            , new int[] { 1000, 2000 }));
+        questList.Add(10, new QuestData("바오밥 나무 싹을 제거한다."
+            , new int[] { 2000, 2001 ,2002, 1000 }));
         questList.Add(20, new QuestData("다른 행성으로 이동하기"
             , new int[] { 1000, 3000 }));
         questList.Add(30, new QuestData("오만한 왕과 대화하기"
@@ -35,11 +35,13 @@ public class QuestManager : MonoBehaviour
     }
     public string CheckQuest(int id)
     {
-        ControlObjcet();
+        
         if(id == questList[questId].npcId[questActionIndex])
         questActionIndex++;
 
-        if(questActionIndex == questList[questId].npcId.Length) //퀘스트 다했음 다음 퀘스트로
+        ControlObjcet();
+
+        if (questActionIndex == questList[questId].npcId.Length) //퀘스트 다했음 다음 퀘스트로
             NextQuset();
         return questList[questId].questName;
     }
@@ -57,6 +59,12 @@ public class QuestManager : MonoBehaviour
             case 10:
                 if (questActionIndex == 1)
                     questObject[0].SetActive(false);
+                else if (questActionIndex == 2)
+                    questObject[1].SetActive(false);
+                else if (questActionIndex == 3)
+                    questObject[2].SetActive(false);
+                if (questActionIndex == 3)
+                    questObject[3].SetActive(true);
                 break;
             case 20:
                 break;
