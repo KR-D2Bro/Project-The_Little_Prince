@@ -246,7 +246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questActionIndex: 0
   questObject:
-  - {fileID: 0}
+  - {fileID: 965162993}
   questId: 40
 --- !u!4 &710664916
 Transform:
@@ -1448,7 +1448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 4100
-  isNpc: 0
+  isNpc: 1
 --- !u!136 &2091206760
 CapsuleCollider:
   m_ObjectHideFlags: 0

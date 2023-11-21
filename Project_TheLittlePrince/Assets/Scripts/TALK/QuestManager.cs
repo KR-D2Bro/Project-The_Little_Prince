@@ -25,7 +25,7 @@ public class QuestManager : MonoBehaviour
         questList.Add(30, new QuestData("오만한 왕과 대화하기"
             , new int[] { 1000, 3000 }));
         questList.Add(40, new QuestData("주정뱅이와 대화하기"
-            , new int[] { 1000, 3000 }));
+            , new int[] { 4100, 4200,4100 }));
     }
 
     public int GetQuestTalkIndex(int id) //npc id
@@ -75,6 +75,12 @@ public class QuestManager : MonoBehaviour
                     questObject[5].SetActive(true);
                 if (questActionIndex == 3)
                     questObject[5].SetActive(false);
+                if (questActionIndex == 5)
+                    questObject[6].SetActive(true);
+                break;
+            case 40:
+                if (questActionIndex == 2)
+                    questObject[0].SetActive(false);
                 break;
         }
     }
