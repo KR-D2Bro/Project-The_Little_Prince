@@ -21,7 +21,7 @@ public class QuestManager : MonoBehaviour
         questList.Add(10, new QuestData("바오밥 나무 싹을 제거한다."
             , new int[] { 2000, 2001 ,2002, 1000 }));
         questList.Add(20, new QuestData(" 유리병과 다른 행성"
-            , new int[] { 2050, 1000 }));
+            , new int[] { 2050, 1000 ,2060,2070,1000}));
         questList.Add(30, new QuestData("오만한 왕과 대화하기"
             , new int[] { 1000, 3000 }));
         questList.Add(40, new QuestData("주정뱅이와 대화하기"
@@ -73,6 +73,8 @@ public class QuestManager : MonoBehaviour
                     questObject[4].SetActive(false);
                 if (questActionIndex == 2)
                     questObject[5].SetActive(true);
+                if (questActionIndex == 3)
+                    questObject[5].SetActive(false);
                 break;
         }
     }
