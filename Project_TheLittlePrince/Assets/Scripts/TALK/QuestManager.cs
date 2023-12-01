@@ -1,38 +1,38 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class QuestManager : MonoBehaviour
 {
-    Dictionary<int, QuestData> questList; //Äù½ºÆ® µ¥ÀÌÅÍ ÀúÀå
-    public int questActionIndex;//generateDataÀÇ new int[]ÀÇ °ªÀ» °¡Á®¿À±â À§ÇÑ ºÎ°¡Àû ÀÎµ¦½º
+    Dictionary<int, QuestData> questList; //í€˜ìŠ¤íŠ¸ ë°ì´í„° ì €ì¥
+    public int questActionIndex;//generateDataì˜ new int[]ì˜ ê°’ì„ ê°€ì ¸ì˜¤ê¸° ìœ„í•œ ë¶€ê°€ì  ì¸ë±ìŠ¤
     public GameObject[] questObject;
 
-    public int questId; //Áö±İ ÁøÇàÁßÀÎ id ÀÌ°Ç µñ¼Å³Î¸®¿¡ µé¾î°£°ÅÀÓ
+    public int questId; //ì§€ê¸ˆ ì§„í–‰ì¤‘ì¸ id ì´ê±´ ë”•ì…”ë„ë¦¬ì— ë“¤ì–´ê°„ê±°ì„
     void Awake()
     {
-        questList = new Dictionary<int, QuestData>(); //ÃÊ±âÈ­
+        questList = new Dictionary<int, QuestData>(); //ì´ˆê¸°í™”
         GenerateData();
     }
 
     // Update is called once per frame
     void GenerateData()
     {
-        questList.Add(10, new QuestData("¹Ù¿À¹ä ³ª¹« ½ÏÀ» Á¦°ÅÇÑ´Ù."
+        questList.Add(10, new QuestData("ë°”ì˜¤ë°¥ ë‚˜ë¬´ ì‹¹ì„ ì œê±°í•œë‹¤."
             , new int[] { 2000, 2001 ,2002, 1000 }));
-        questList.Add(20, new QuestData(" À¯¸®º´°ú ´Ù¸¥ Çà¼º"
+        questList.Add(20, new QuestData(" ìœ ë¦¬ë³‘ê³¼ ë‹¤ë¥¸ í–‰ì„±"
             , new int[] { 2050, 1000 ,2060,2070,1000}));
-        questList.Add(30, new QuestData("¿À¸¸ÇÑ ¿Õ°ú ´ëÈ­ÇÏ±â"
+        questList.Add(30, new QuestData("ì˜¤ë§Œí•œ ì™•ê³¼ ëŒ€í™”í•˜ê¸°"
             , new int[] { 1000, 3000 }));
-        questList.Add(40, new QuestData("ÁÖÁ¤¹ğÀÌ¿Í ´ëÈ­ÇÏ±â"
+        questList.Add(40, new QuestData("ì£¼ì •ë±…ì´ì™€ ëŒ€í™”í•˜ê¸°"
             , new int[] { 4100, 4200,4100 }));
-        questList.Add(40, new QuestData("ÁÖÁ¤¹ğÀÌ¿Í ´ëÈ­ÇÏ±â"
+        questList.Add(40, new QuestData("ì£¼ì •ë±…ì´ì™€ ëŒ€í™”í•˜ê¸°"
             , new int[] { 4100, 4200, 4100 }));
     }
 
     public int GetQuestTalkIndex(int id) //npc id
     {
-        return questId + questActionIndex; //°ÔÀÓ ¸Ş´ÏÀú¿¡ ³»º¸³¿
+        return questId + questActionIndex; //ê²Œì„ ë©”ë‹ˆì €ì— ë‚´ë³´ëƒ„
 
     }
     public string CheckQuest(int id)
@@ -43,7 +43,7 @@ public class QuestManager : MonoBehaviour
 
         ControlObjcet();
 
-        if (questActionIndex == questList[questId].npcId.Length) //Äù½ºÆ® ´ÙÇßÀ½ ´ÙÀ½ Äù½ºÆ®·Î
+        if (questActionIndex == questList[questId].npcId.Length) //í€˜ìŠ¤íŠ¸ ë‹¤í–ˆìŒ ë‹¤ìŒ í€˜ìŠ¤íŠ¸ë¡œ
             NextQuset();
         return questList[questId].questName;
     }
@@ -51,7 +51,7 @@ public class QuestManager : MonoBehaviour
     void NextQuset()
     {
         questId += 10;
-        questActionIndex = 0; //»õ·Î¿î Äù½ºÆ®°¡ ½ÃÀÛÇß±â¿¡
+        questActionIndex = 0; //ìƒˆë¡œìš´ í€˜ìŠ¤íŠ¸ê°€ ì‹œì‘í–ˆê¸°ì—
     }
 
     void ControlObjcet()
