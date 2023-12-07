@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,29 +9,29 @@ public class GameManager : MonoBehaviour
     public QuestManager questManager;
     public GameObject talkPanel;
     public Text talkText;
-    public GameObject scanObject; // ÇÃ·¹ÀÌ¾î°¡ ½ºÄµÇÑ °Í
+    public GameObject scanObject; // í”Œë ˆì´ì–´ê°€ ìŠ¤ìº”í•œ ê²ƒ
     public bool isAction;
     public int talkIndex;
     public void Action(RaycastHit hitInfo)
     {
            
-            // hitInfo¿¡¼­ ÇÊ¿äÇÑ Á¤º¸ ÃßÃâ
+            // hitInfoì—ì„œ í•„ìš”í•œ ì •ë³´ ì¶”ì¶œ
         GameObject hitObject = hitInfo.collider.gameObject;
 
-            // scanObject¿¡ ÇÒ´ç
+            // scanObjectì— í• ë‹¹
         scanObject = hitObject;
         objData objData = scanObject.GetComponent<objData>();
         Talk(objData.id, objData.isNpc);
-        talkPanel.SetActive(isAction); //Ã¢À» ¶ç¿ì°í
+        talkPanel.SetActive(isAction); //ì°½ì„ ë„ìš°ê³ 
 
     }
 
     void Talk(int id, bool isNpc)
     {
         int questTalkIndex = questManager.GetQuestTalkIndex(id);
-        string talkData = talkManager.GetTalk(id+ questTalkIndex, talkIndex);  //Äù½ºÆ® ¹øÈ£ + NPC id Äù½ºÆ® ´ëÈ­ µ¥ÀÌÅÍ
+        string talkData = talkManager.GetTalk(id+ questTalkIndex, talkIndex);  //í€˜ìŠ¤íŠ¸ ë²ˆí˜¸ + NPC id í€˜ìŠ¤íŠ¸ ëŒ€í™” ë°ì´í„°
         if (talkData == null) {
-            isAction = false; //´ëÈ­°¡ ³¡³ª¸é ¾×¼ÇÀ» ºñÈ°¼ºÈ­ ÇÏ°í ´ëÈ­ ¼ø¼­À» 0·Î ¸¸µé¾î ¿À·ù°¡ ¾È³ª°Ô
+            isAction = false; //ëŒ€í™”ê°€ ëë‚˜ë©´ ì•¡ì…˜ì„ ë¹„í™œì„±í™” í•˜ê³  ëŒ€í™” ìˆœì„œì„ 0ë¡œ ë§Œë“¤ì–´ ì˜¤ë¥˜ê°€ ì•ˆë‚˜ê²Œ
             talkIndex = 0;
             Debug.Log(questManager.CheckQuest(id));
             return;
@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            talkText.text = talkData;// ÃÊ»óÈ­¸¦ À§ÇØ ³ª´® npcÀÎ °æ¿ì¿Í ¾Æ´Ñ °æ¿ì
+            talkText.text = talkData;// ì´ˆìƒí™”ë¥¼ ìœ„í•´ ë‚˜ëˆ” npcì¸ ê²½ìš°ì™€ ì•„ë‹Œ ê²½ìš°
         }
         isAction = true;
         talkIndex++;
