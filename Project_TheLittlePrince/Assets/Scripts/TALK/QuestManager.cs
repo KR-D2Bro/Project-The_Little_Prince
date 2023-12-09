@@ -26,8 +26,10 @@ public class QuestManager : MonoBehaviour
             , new int[] { 1000, 3000 }));
         questList.Add(40, new QuestData("주정뱅이와 대화하기"
             , new int[] { 4100, 4200,4100 }));
-        questList.Add(40, new QuestData("주정뱅이와 대화하기"
-            , new int[] { 4100, 4200, 4100 }));
+        questList.Add(50, new QuestData("허영쟁이와 대화하기"
+            , new int[] { 5000,100 }));
+        questList.Add(60, new QuestData("지리학자와 대화하기"
+            , new int[] { 6000,6100 }));
     }
 
     public int GetQuestTalkIndex(int id) //npc id
