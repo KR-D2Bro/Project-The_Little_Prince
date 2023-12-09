@@ -8,6 +8,8 @@ public class QuestManager : MonoBehaviour
     public int questActionIndex;//generateData의 new int[]의 값을 가져오기 위한 부가적 인덱스
     public GameObject[] questObject;
 
+    public bool IsTake=false;
+
     public int questId; //지금 진행중인 id 이건 딕셔널리에 들어간거임
     void Awake()
     {
@@ -61,8 +63,10 @@ public class QuestManager : MonoBehaviour
         switch (questId)
         {
             case 10:
-                if (questActionIndex == 1)
+                if (questActionIndex == 1){
                     questObject[0].SetActive(false);
+                    IsTake=true;
+                    }
                 else if (questActionIndex == 2)
                     questObject[1].SetActive(false);
                 else if (questActionIndex == 3)
