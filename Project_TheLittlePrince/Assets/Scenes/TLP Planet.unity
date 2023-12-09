@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.11401615, g: 0.10134875, b: 0.097442664, a: 1}
+  m_IndirectSpecularColor: {r: 0.12331375, g: 0.1105083, b: 0.10422667, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1986,7 +1986,6 @@ MonoBehaviour:
   - {fileID: 602329039}
   - {fileID: 698271615}
   - {fileID: 1827419171}
-  IsTake: 0
   questId: 10
 --- !u!4 &1463696160
 Transform:

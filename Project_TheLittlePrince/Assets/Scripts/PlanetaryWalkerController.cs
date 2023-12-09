@@ -91,7 +91,6 @@ public class PlanetaryWalkerController : MonoBehaviour
                 IsWalking=false;
                 anim.SetBool("IsWalk",false);
             }
-            
 
             // 속도 변경 적용
             Player.AddForce(velocityChange, ForceMode.VelocityChange);
