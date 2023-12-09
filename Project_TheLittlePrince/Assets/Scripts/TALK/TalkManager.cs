@@ -8,6 +8,7 @@ public class TalkManager : MonoBehaviour
     Dictionary<int, string[]> talkData;
     void Start()
     {
+
         talkData = new Dictionary<int, string[]>();
         GenerateData();
     }
@@ -44,14 +45,14 @@ public class TalkManager : MonoBehaviour
 
         talkData.Add(40 + 4100, new string[] { "어린왕자: 아저씨 뭘 하고 있어요?","술꾼: 술 마시지.","어린왕자: 왜 마셔요?","술꾼: 잊기 위해서지.","어린왕자: 뭘 잊고 싶은데요?","술꾼 술을 가져와 준다면 애기해주지",
             "옆에 술을 가져다 주자" });
+        
         talkData.Add(41 + 4200, new string[] { "술병이다 가져다주자", "술병을 챙겼다." });
-
+        
         talkData.Add(42 + 4100, new string[] { "어린왕자:여기 술이에요 뭘 잊고 싶으세요? ","술꾼: 부끄러움.","어린왕자: 뭐가 부끄러우세요?", "술꾼: 술을 마시고 있다는 게 부끄러워!", "어린왕자:(어른들이란 정말이지…알 수가 없어)" });
 
         talkData.Add(50 + 5000, new string[] {"허영쟁이: 아아! 나의 숭배자가 찾아왔구나!","어린왕자: 안녕하세요, 아저씨.이상한 모자를 쓰고 계시네요?","허영쟁이: 이건 답례를 위한 모자야.",
         "사람들이 내게 환호할 때 답례하기 위해 쓰고 있지.\n그런데 불행히도 이리로는 아무도 지나가지 않아.","어린왕자: 아..그래요 ?","허영쟁이 : 양손을 서로 마주 쳐보렴.",
             "어린 왕자가 두 손을 마주치자 허영쟁이가 모자를 들어 올리며 공손히 답례했다." ,"어린왕자: (왕을 방문할 때보다 재미있는데? 한번 더 박수를 쳐볼까  ?)" });
-
     }
     public string GetTalk(int id, int talkIndex)
     {
