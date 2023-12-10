@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.11126872, g: 0.098423876, b: 0.09347262, a: 1}
+  m_IndirectSpecularColor: {r: 0.12569886, g: 0.10633611, b: 0.10142263, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1609,6 +1609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_15
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 33b904e8d80028b4fa75cff29015a59b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 33b904e8d80028b4fa75cff29015a59b, type: 3}
       propertyPath: m_LocalScale.x
       value: 54.922
@@ -2167,7 +2171,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\uBC14\uC624\uBC25 \uB098\uBB34\uC758 \uC2F9\uC774 \uC790\uB77C\uACE0
-    \uC788\uB2E4 \uB354 \uC790\uB77C\uAE30 \uC804\uC5D0 \uC5C6\uC560\uC57C\uD55C\uB2E4."
+    \uC788\uB2E4.\n\uB354 \uC790\uB77C\uAE30 \uC804\uC5D0 \uC5C6\uC560\uC57C\uD55C\uB2E4."
 --- !u!222 &1612000865
 CanvasRenderer:
   m_ObjectHideFlags: 0
