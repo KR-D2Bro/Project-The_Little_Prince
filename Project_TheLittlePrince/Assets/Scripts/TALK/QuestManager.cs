@@ -133,9 +133,18 @@ public class QuestManager : MonoBehaviour
                 {
                     questObject[1].SetActive(false);
                 }
+                if (questActionIndex == 4)
+                {
+                    questObject[2].SetActive(true);
+                    questObject[3].SetActive(true);
+                }
+                if (questActionIndex == 5)
+                {
+                    questObject[4].SetActive(true);
+                }
                 if (questActionIndex == 6)
                 {
-                    questObject[2].SetActive(false);
+                    questObject[4].SetActive(false);
                 }
                 break;
         }
