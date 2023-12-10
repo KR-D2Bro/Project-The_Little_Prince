@@ -1261,6 +1261,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4572df7ed25e1264ab4807dfd93fdc87, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1651028461}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4572df7ed25e1264ab4807dfd93fdc87, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1651028470}
   m_SourcePrefab: {fileID: 100100000, guid: 4572df7ed25e1264ab4807dfd93fdc87, type: 3}
 --- !u!1001 &683343442
 PrefabInstance:
@@ -3051,7 +3054,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651028460}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d44e4d926d727504fa4234dcdd970002, type: 3}
   m_Name: 
@@ -3118,6 +3121,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4572df7ed25e1264ab4807dfd93fdc87, type: 3}
   m_PrefabInstance: {fileID: 614695387}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1651028470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651028460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9c73dad023d724ab2b11ce2732e3eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementspeed: 5
+  canJump: 1
+  jumpHeight: 2.5
+  playerCamera: {fileID: 1041269482}
+  CameraSpeed: 2
+  CameraXLimit: 30
+  IsWalking: 0
 --- !u!1001 &1700597067
 PrefabInstance:
   m_ObjectHideFlags: 0
