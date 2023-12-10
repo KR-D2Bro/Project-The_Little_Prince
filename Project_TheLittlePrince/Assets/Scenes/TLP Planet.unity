@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.12212544, g: 0.10460607, b: 0.09881199, a: 1}
+  m_IndirectSpecularColor: {r: 0.114910685, g: 0.10291018, b: 0.09935274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1466,11 +1466,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 795389349}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bdfd1069ea6ffe48be737c6ae0160af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  questManager: {fileID: 1463696158}
 --- !u!1 &898351515
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,6 +2002,8 @@ MonoBehaviour:
   - {fileID: 602329039}
   - {fileID: 698271615}
   - {fileID: 1827419171}
+  IsTake: 0
+  IsThank: 0
   questId: 10
 --- !u!4 &1463696160
 Transform:

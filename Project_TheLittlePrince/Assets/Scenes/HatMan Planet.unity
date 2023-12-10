@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12212544, g: 0.10460607, b: 0.09881199, a: 1}
+  m_IndirectSpecularColor: {r: 0.114910685, g: 0.10291018, b: 0.09935274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -766,6 +766,7 @@ MonoBehaviour:
   questActionIndex: 0
   questObject:
   - {fileID: 0}
+  IsTake: 0
   questId: 50
 --- !u!4 &874623706
 Transform:
@@ -845,6 +846,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 5000
   isNpc: 0
+--- !u!114 &886638552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886638548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9a3fe3e23f989f4da83f02584cba8a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1189088628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1078,6 +1091,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e582e41ad951a1e4aa125bcd2c7b0fe5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 886638551}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e582e41ad951a1e4aa125bcd2c7b0fe5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 886638552}
   m_SourcePrefab: {fileID: 100100000, guid: e582e41ad951a1e4aa125bcd2c7b0fe5, type: 3}
 --- !u!1001 &1518961953
 PrefabInstance:
