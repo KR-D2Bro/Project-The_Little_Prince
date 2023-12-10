@@ -27,7 +27,7 @@ public class QuestManager : MonoBehaviour
         questList.Add(20, new QuestData(" 유리병과 다른 행성"
             , new int[] { 2050, 1000 ,2060,2070,1000}));
         questList.Add(30, new QuestData("오만한 왕과 대화하기"
-            , new int[] { 1000, 3000 }));
+            , new int[] { 4000, 4030, 4000, 3000 }));
         questList.Add(40, new QuestData("주정뱅이와 대화하기"
             , new int[] { 4100, 4200,4100 }));
         questList.Add(50, new QuestData("허영쟁이와 대화하기"
@@ -95,6 +95,14 @@ public class QuestManager : MonoBehaviour
                     questObject[5].SetActive(false);
                 if (questActionIndex == 5)
                     questObject[6].SetActive(true);
+                break;
+            case 30:
+                if (questActionIndex == 1)
+                    questObject[0].SetActive(true);
+                if (questActionIndex == 2)
+                    questObject[0].SetActive(false);
+                if (questActionIndex == 3)
+                    questObject[1].SetActive(true);
                 break;
             case 40:
                 if (questActionIndex == 2)
