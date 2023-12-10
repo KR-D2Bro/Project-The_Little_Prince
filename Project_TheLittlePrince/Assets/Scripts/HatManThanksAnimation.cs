@@ -21,5 +21,13 @@ public class HatManThanksAnimation : MonoBehaviour
     void Update()
     {
         Thanks=qm.IsThank;
+
+        if(Thanks){
+            anim.SetBool("Thanks",true);
+            qm.IsThank=false;
+        }
+        else{
+            anim.SetBool("Thanks",false);
+        }
     }
 }

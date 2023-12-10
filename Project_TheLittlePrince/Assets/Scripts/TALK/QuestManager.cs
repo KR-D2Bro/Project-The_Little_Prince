@@ -10,7 +10,7 @@ public class QuestManager : MonoBehaviour
 
     public bool IsTake=false;
     public bool IsThank=false;
-
+    public bool IsClap=false;
     
     public int questId; //지금 진행중인 id 이건 딕셔널리에 들어간거임
     void Awake()
@@ -67,20 +67,28 @@ public class QuestManager : MonoBehaviour
         switch (questId)
         {
             case 10:
-                if (questActionIndex == 1)
+                if (questActionIndex == 1){
                     questObject[0].SetActive(false);
-                else if (questActionIndex == 2)
+                    IsTake=true;
+                }
+                else if (questActionIndex == 2){
                     questObject[1].SetActive(false);
-                else if (questActionIndex == 3)
+                    IsTake=true;
+                }
+                else if (questActionIndex == 3){
                     questObject[2].SetActive(false);
+                    IsTake=true;
+                }
                 if (questActionIndex == 3)
                     questObject[3].SetActive(true);
                 if (questActionIndex == 4)
                     questObject[4].SetActive(true);
                 break;
             case 20:
-                if (questActionIndex == 1)
+                if (questActionIndex == 1){
                     questObject[4].SetActive(false);
+                    IsTake=true;
+                }
                 if (questActionIndex == 2)
                     questObject[5].SetActive(true);
                 if (questActionIndex == 3)
@@ -93,8 +101,15 @@ public class QuestManager : MonoBehaviour
                     questObject[0].SetActive(false);
                 break;
             case 50:
-                if (questActionIndex == 1)
-                    break;
+                if (questActionIndex == 1){
+                    IsClap=true;
+                    IsThank=true;
+                }
+                if (questActionIndex==2){
+                    IsClap=true;
+                    IsThank=true;
+                }
+                if (questActionIndex==3){}
                 break;
         }
     }

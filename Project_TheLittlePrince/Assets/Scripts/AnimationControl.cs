@@ -8,20 +8,21 @@ public class AnimationControl : MonoBehaviour
 
     public GameObject questManager;
     QuestManager qm;
-    bool Take;
+
+    bool Take=false;
+    bool Clap=false;
     // Start is called before the first frame update
     void Start()
     {
         anim=GetComponent<Animator>();
         qm=questManager.GetComponent<QuestManager>();
-        
-        //Take=questManager.GetComponent<QuestManager>().IsTake;
     }
 
     // Update is called once per frame
     void Update()
     {
         Take=qm.IsTake;
+        Clap=qm.IsClap;
 
         if(Take){
             anim.SetBool("Take",true);
@@ -29,6 +30,14 @@ public class AnimationControl : MonoBehaviour
         }
         else{
             anim.SetBool("Take",false);
+        }
+
+        if(Clap){
+            anim.SetBool("Clap",true);
+            qm.IsClap=false;
+        }
+        else{
+            anim.SetBool("Clap",false);
         }
     }
 }

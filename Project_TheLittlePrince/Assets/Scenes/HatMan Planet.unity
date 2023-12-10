@@ -767,6 +767,7 @@ MonoBehaviour:
   questObject:
   - {fileID: 0}
   IsTake: 0
+  IsThank: 0
   questId: 50
 --- !u!4 &874623706
 Transform:
@@ -858,6 +859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9a3fe3e23f989f4da83f02584cba8a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  questManager: {fileID: 874623704}
 --- !u!1 &1189088628
 GameObject:
   m_ObjectHideFlags: 0
