@@ -83,7 +83,7 @@ public class EarthWalkerController : MonoBehaviour
             velocityChange = transform.TransformDirection(velocityChange);
 
             // 애니메이션
-            if (velocityChange.magnitude > 0.1f)
+            if (Input.GetKey(KeyCode.W)||Input.GetKey(KeyCode.A)||Input.GetKey(KeyCode.S)||Input.GetKey(KeyCode.D))
             {
                 IsWalking = true;
                 anim.SetBool("IsWalk", true);

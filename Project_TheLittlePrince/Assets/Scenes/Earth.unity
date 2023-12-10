@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5618256, g: 0.72205526, b: 0.8180011, a: 1}
+  m_IndirectSpecularColor: {r: 0.56184906, g: 0.72206545, b: 0.81800187, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4654,8 +4654,8 @@ MonoBehaviour:
   canJump: 1
   jumpHeight: 2.5
   playerCamera: {fileID: 1041269482}
-  CameraSpeed: 2
-  CameraXLimit: 30
+  CameraSpeed: 20
+  CameraXLimit: 20
   IsWalking: 0
 --- !u!1001 &1700597067
 PrefabInstance:

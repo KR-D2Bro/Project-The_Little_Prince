@@ -26,7 +26,7 @@ public class PressKeyText : MonoBehaviour
         if(Time.time>5){
             g.SetActive(true);
             if(Input.GetKey(KeyCode.G)){
-                SceneManager.LoadScene("TLP Planet");
+                SceneManager.LoadScene("Start");
             }
         }
     }

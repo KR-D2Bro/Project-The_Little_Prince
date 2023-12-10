@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-public class SceneLoad : MonoBehaviour
+public class SceneLoad1 : MonoBehaviour
 {
     public Slider progressbar;
     public TextMeshProUGUI loadtext;
@@ -18,7 +18,7 @@ public class SceneLoad : MonoBehaviour
     IEnumerator LoadScene()
     {
       yield return null;
-      AsyncOperation operation = SceneManager.LoadSceneAsync("King Planet");
+      AsyncOperation operation = SceneManager.LoadSceneAsync("TLP Planet");
       operation.allowSceneActivation = false;
 
       while (!operation.isDone)
@@ -34,7 +34,7 @@ public class SceneLoad : MonoBehaviour
         
         if (progressbar.value >= 1f)
         {
-          loadtext.text = "Press G";
+          loadtext.text = "Press G to continue";
         }
 
         if (Input.GetKeyDown(KeyCode.G) && progressbar.value >= 1f && operation.progress >= 0.9f)
