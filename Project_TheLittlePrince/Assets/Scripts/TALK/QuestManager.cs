@@ -31,7 +31,7 @@ public class QuestManager : MonoBehaviour
         questList.Add(40, new QuestData("주정뱅이와 대화하기"
             , new int[] { 4100, 4200,4100 }));
         questList.Add(50, new QuestData("허영쟁이와 대화하기"
-            , new int[] { 5000,100 }));
+            , new int[] { 5000,5100,5000 }));
         questList.Add(60, new QuestData("지리학자와 대화하기"
             , new int[] { 6000,6100 }));
         questList.Add(70, new QuestData("지구에서의 첫걸음"
@@ -104,12 +104,24 @@ public class QuestManager : MonoBehaviour
                 if (questActionIndex == 1){
                     IsClap=true;
                     IsThank=true;
+                    questObject[0].SetActive(true);
                 }
-                if (questActionIndex==2){
+                if (questActionIndex == 2){
                     IsClap=true;
                     IsThank=true;
+                    questObject[0].SetActive(false);
                 }
                 if (questActionIndex==3){}
+                    break;
+            case 70:
+                if (questActionIndex == 1)
+                {
+                    questObject[0].SetActive(true);
+                }
+                if (questActionIndex == 2)
+                {
+                    questObject[1].SetActive(false);
+                }
                 break;
         }
     }

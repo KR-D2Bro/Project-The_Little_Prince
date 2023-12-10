@@ -1087,7 +1087,10 @@ MonoBehaviour:
   questActionIndex: 0
   questObject:
   - {fileID: 0}
-  questId: 50
+  IsTake: 0
+  IsThank: 0
+  IsClap: 0
+  questId: 60
 --- !u!4 &987389956
 Transform:
   m_ObjectHideFlags: 0
