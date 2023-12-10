@@ -41,6 +41,7 @@ public class PlanetaryWalkerController : MonoBehaviour
 
     void Awake()
     {
+        
         // Animator 컴포넌트 가져오기
         anim=GetComponent<Animator>();
 
@@ -66,6 +67,7 @@ public class PlanetaryWalkerController : MonoBehaviour
     {
         if (grounded)
         {
+            
             // 플레이어 이동 속도 계산
             Vector3 forwardDir = Vector3.Cross(transform.up, -playerCamera.transform.right).normalized;
             Vector3 rightdirection = Vector3.Cross(transform.up, playerCamera.transform.forward).normalized;
