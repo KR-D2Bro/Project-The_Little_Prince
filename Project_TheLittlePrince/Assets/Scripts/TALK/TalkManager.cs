@@ -101,7 +101,7 @@ public class TalkManager : MonoBehaviour
         talkData.Add(76 + 7400, new string[] { "조종사: 좋아, 드디어 수리가 끝났어! 너도 드디어 집에 갈 수 있겠구나.","어린왕자: 정말요? 얼른 출발해요!",
             "조종사: 하하, 돌아갈 준비가 되면 비행기에 타거라","비행기를 타고 가자" });
 
-        talkData.Add(77 + 7000, new string[] { "고향으로" });
+        talkData.Add(77 + 3000, new string[] { "고향으로" });
 
     }
     public string GetTalk(int id, int talkIndex)
