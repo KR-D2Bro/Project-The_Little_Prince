@@ -18,7 +18,7 @@ public class SceneLoad5 : MonoBehaviour
     IEnumerator LoadScene()
     {
       yield return null;
-      AsyncOperation operation = SceneManager.LoadSceneAsync("Earth");
+      AsyncOperation operation = SceneManager.LoadSceneAsync("Geographer Planet");
       operation.allowSceneActivation = false;
 
       while (!operation.isDone)

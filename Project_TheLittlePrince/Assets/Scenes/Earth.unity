@@ -706,7 +706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a14f0bdd2a21d04b9b409afd3a289a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.062
+      value: 1.21
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a14f0bdd2a21d04b9b409afd3a289a1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -714,23 +714,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a14f0bdd2a21d04b9b409afd3a289a1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.542114
+      value: 0.5418577
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a14f0bdd2a21d04b9b409afd3a289a1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.01666876
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a14f0bdd2a21d04b9b409afd3a289a1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.8403049
+      value: 0.83990765
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a14f0bdd2a21d04b9b409afd3a289a1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.025837436
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a14f0bdd2a21d04b9b409afd3a289a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 3.524
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a14f0bdd2a21d04b9b409afd3a289a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -922,6 +922,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0a14f0bdd2a21d04b9b409afd3a289a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1049672895}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0a14f0bdd2a21d04b9b409afd3a289a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1049672897}
   m_SourcePrefab: {fileID: 100100000, guid: 0a14f0bdd2a21d04b9b409afd3a289a1, type: 3}
 --- !u!4 &361865591 stripped
 Transform:
@@ -2823,6 +2826,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 7300
   isNpc: 0
+--- !u!95 &1049672897
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049672889}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: db273e8ef2f030846b6648291d121293, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1058019056
 GameObject:
   m_ObjectHideFlags: 0
@@ -4990,6 +5014,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fcfafbd0c6cbd274797efb285d5ee141, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2090017377}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fcfafbd0c6cbd274797efb285d5ee141, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2090017379}
   m_SourcePrefab: {fileID: 100100000, guid: fcfafbd0c6cbd274797efb285d5ee141, type: 3}
 --- !u!1001 &1842423532
 PrefabInstance:
@@ -5795,6 +5822,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 7400
   isNpc: 0
+--- !u!95 &2090017379
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090017371}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4aba229cf3eaad44da01904d43c34c42, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2097188773 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 83702d67eb6c2254f9a4f636cd3765a9, type: 3}

@@ -79,8 +79,10 @@ public class QuestManager : MonoBehaviour
                     questObject[2].SetActive(false);
                     IsTake=true;
                 }
-                if (questActionIndex == 3)
+                if (questActionIndex == 3){
                     questObject[3].SetActive(true);
+                    questObject[7].SetActive(false);
+                }
                 if (questActionIndex == 4)
                     questObject[4].SetActive(true);
                 break;
@@ -107,6 +109,8 @@ public class QuestManager : MonoBehaviour
             case 40:
                 if (questActionIndex == 2)
                     questObject[0].SetActive(false);
+                if(questActionIndex==3)
+                    questObject[1].SetActive(true);
                 break;
             case 50:
                 if (questActionIndex == 1){
@@ -123,6 +127,11 @@ public class QuestManager : MonoBehaviour
                     questObject[1].SetActive(true);
                 }
                     break;
+            case 60:
+                if(questActionIndex==1){
+                    questObject[0].SetActive(true);
+                }
+                break;
             case 70:
                 if (questActionIndex == 1)
                 {
