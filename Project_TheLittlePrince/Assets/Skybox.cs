@@ -7,6 +7,8 @@ public class Skybox : MonoBehaviour
     public Material[] skybox; 
     public GameObject questManager;
     QuestManager qm;
+
+    public Light targetLight;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,7 @@ public class Skybox : MonoBehaviour
     {
         if(qm.IsNight){
             RenderSettings.skybox=skybox[1];
+            targetLight.intensity=0.3f;
         }
     }
 }
