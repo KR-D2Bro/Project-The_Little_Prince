@@ -160,6 +160,7 @@ public class QuestManager : MonoBehaviour
                 if (questActionIndex == 7)
                 {
                     questObject[5].SetActive(false);
+                    questObject[6].SetActive(true);
                 }
                 break;
         }

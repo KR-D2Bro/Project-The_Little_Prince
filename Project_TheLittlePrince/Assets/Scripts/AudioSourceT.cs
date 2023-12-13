@@ -15,7 +15,7 @@ public class AudioSourceT : MonoBehaviour
     {
         qm=questManager.GetComponent<QuestManager>();
 
-        BGM = gameObject.AddComponent<AudioSource>();
+        BGM = gameObject.GetComponent<AudioSource>();
         BGM.loop = true;
         BGM.clip=audio[0];
         BGM.Play();

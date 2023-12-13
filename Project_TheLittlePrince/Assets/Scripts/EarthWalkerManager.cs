@@ -42,6 +42,8 @@ public class EarthWalkerController : MonoBehaviour
     // 중력 상수
     float gravityConstant = 9.8f;
 
+    Rigidbody rb;
+
     void Awake()
     {
         // Animator 컴포넌트 가져오기
@@ -61,6 +63,9 @@ public class EarthWalkerController : MonoBehaviour
         // 커서 숨기고 고정
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        
+        //rigidbody
+        rb=GetComponent<Rigidbody>();
     }
 
     void FixedUpdate()
@@ -83,7 +88,7 @@ public class EarthWalkerController : MonoBehaviour
             velocityChange = transform.TransformDirection(velocityChange);
 
             // 애니메이션
-            if (Input.GetKey(KeyCode.W)||Input.GetKey(KeyCode.A)||Input.GetKey(KeyCode.S)||Input.GetKey(KeyCode.D))
+            if (rb.velocity.magnitude>0.1f)//Input.GetKey(KeyCode.W)||Input.GetKey(KeyCode.A)||Input.GetKey(KeyCode.S)||Input.GetKey(KeyCode.D))
             {
                 IsWalking = true;
                 anim.SetBool("IsWalk", true);
