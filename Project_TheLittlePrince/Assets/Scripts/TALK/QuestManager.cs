@@ -33,7 +33,7 @@ public class QuestManager : MonoBehaviour
         questList.Add(50, new QuestData("허영쟁이와 대화하기"
             , new int[] { 5000,5100,5000,3000 }));
         questList.Add(60, new QuestData("지리학자와 대화하기"
-            , new int[] { 6000,6100 }));
+            , new int[] { 6000,3000 }));
         questList.Add(70, new QuestData("지구에서의 첫걸음"
             , new int[] { 7000, 7100,7200,7300,7400,7500 }));
     }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43891498, g: 0.4871173, b: 0.56738013, a: 1}
+  m_IndirectSpecularColor: {r: 0.43891466, g: 0.48711663, b: 0.56737906, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1850,7 +1850,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.6785659, y: 1.6575009, z: 1.5901766}
+  m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: -0.044995606, y: 0, z: 0.571013}
 --- !u!114 &1652303955
 MonoBehaviour:
@@ -2155,7 +2155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 331527318}
-  interactionDistance: 2
+  interactionDistance: 4
   layerMask:
     serializedVersion: 2
     m_Bits: 896
