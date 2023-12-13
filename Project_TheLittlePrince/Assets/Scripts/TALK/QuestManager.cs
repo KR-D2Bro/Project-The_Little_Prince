@@ -36,7 +36,7 @@ public class QuestManager : MonoBehaviour
         questList.Add(60, new QuestData("지리학자와 대화하기"
             , new int[] { 6000,3000 }));
         questList.Add(70, new QuestData("지구에서의 첫걸음"
-            , new int[] { 7000, 7100,7200,7300,7400,7500 }));
+            , new int[] { 7000, 7100,7200,7300,7400,7500,7400 }));
     }
 
     public int GetQuestTalkIndex(int id) //npc id
@@ -156,6 +156,10 @@ public class QuestManager : MonoBehaviour
                 if (questActionIndex == 6)
                 {
                     questObject[4].SetActive(false);
+                }
+                if (questActionIndex == 7)
+                {
+                    questObject[5].SetActive(false);
                 }
                 break;
         }
