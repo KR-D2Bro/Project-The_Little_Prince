@@ -11,7 +11,8 @@ public class QuestManager : MonoBehaviour
     public bool IsTake=false;
     public bool IsThank=false;
     public bool IsClap=false;
-    
+    public bool IsNight=false;
+
     public int questId; //지금 진행중인 id 이건 딕셔널리에 들어간거임
     void Awake()
     {
@@ -146,6 +147,7 @@ public class QuestManager : MonoBehaviour
                 {
                     questObject[2].SetActive(true);
                     questObject[3].SetActive(true);
+                    IsNight=true;
                 }
                 if (questActionIndex == 5)
                 {
